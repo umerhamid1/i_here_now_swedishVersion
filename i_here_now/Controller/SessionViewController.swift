@@ -65,6 +65,10 @@ class SessionViewController: UIViewController {
     
     @IBOutlet weak var progressLabel: UILabel!
     
+    override func viewDidDisappear(_ animated: Bool) {
+        player?.pause()
+        playBtn.setImage(UIImage(named: "play-button"), for: .normal)
+    }
 
     @IBAction func playSession(_ sender: Any) {
         

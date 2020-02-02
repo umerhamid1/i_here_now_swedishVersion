@@ -37,6 +37,11 @@ class MeditationDetailsTableViewController: UITableViewController {
         
         print("Serie ID is \(serieID)")
         self.navigationController?.navigationBar.tintColor = UIColor.white
+        
+      
+        
+      //  navController.navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor.rawValue: UIColor.red]
+
         //self.navigationController?.navigationBar.titleTextAttributes = UIColor.white
         
         // var nav = self.navigationController?.navigationBar

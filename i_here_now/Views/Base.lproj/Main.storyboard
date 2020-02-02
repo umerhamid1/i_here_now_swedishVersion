@@ -507,4 +507,5 @@
         <image name="x-button" width="256" height="256"/>
         <image name="yogo_icon" width="256" height="256"/>
     </resources>
+    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
 </document>
